@@ -60,7 +60,7 @@ section#main-form > form > section{
     align-items: center;
     gap: 10px;
 }
-section#main-form > form > section > h1{
+section#main-form > form > section > h1.title{
     width: 50%;
     font-variant: small-caps;
     font-size: 2.5em;
@@ -141,5 +141,9 @@ button#btnSend::after{
     background-repeat: no-repeat;
     display: flex;
 }
-.attribution {font-size: 11px; text-align: center; display: none;}
+.attribution {font-size: 11px; text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
 .attribution a { color: hsl(228, 45%, 44%); }

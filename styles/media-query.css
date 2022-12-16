@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+    main{
+        display: grid;
+        grid-template-rows: 130px auto;
+        grid-template-columns: auto max-content;
+        height: 100%;
+        grid-template-areas: 'a1 a'
+                            'a2 a';
+        align-items: center;
+    }
+    main > div.img{
+        background-image: url('../images/hero-desktop.jpg');
+        height: 100%;
+        width: 600px;
+        grid-area: a;
+    }
+    section#main-form > form{
+        height: 50%;
+        justify-content: flex-start;
+    }
+    form > section > h1.title{
+        font-size: 5em;
+    }
+    header{
+        grid-area: a1;
+    }
+    section#form-main{
+        grid-area: a2;
+    }
+}
