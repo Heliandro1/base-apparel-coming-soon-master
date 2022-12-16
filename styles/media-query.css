@@ -1,0 +1,5 @@
+@media only screen and (min-width: 768px) {
+    img{
+        src: url('../images/hero-desktop.jpg');
+    }
+}

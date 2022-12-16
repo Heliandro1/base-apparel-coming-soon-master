@@ -1,0 +1,147 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Loved+by+the+King&display=swap'); */
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+div.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > div > img{
+    height: 25px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    position: absolute;
+}
+section#main-form{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#main-form > form{
+    height: 85%;
+    width: 100%;
+    display: flex;    
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+section#main-form > form > section{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+section#main-form > form > section > h1{
+    width: 50%;
+    font-variant: small-caps;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+}
+section#main-form > form > section > h1 > span{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+span{
+    color: hsl(0, 36%, 70%);
+}
+p{
+    text-align: center;
+    text-indent: 10px;
+    width: 80%;
+}
+p#error{
+    font-weight: 600;
+    font-size: .8em;
+    text-align: left;
+    color:  hsl(0, 93%, 68%);
+    display: none;
+}
+main > div.img{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image: url('../images/hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+input[type="email"]{
+    height: 40px;
+    width: 300px;
+    border: 1px solid hsl(0, 36%, 70%);
+    font-size: 0.9em;
+    color: hsl(0, 36%, 70%);
+    border-radius: 20px;
+    padding: 20px;
+}
+div.field{
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.field span{
+    display: block;
+    background-image: url('../images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: calc(100% - 80%);
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+button#btnSend{
+    width: 50px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    border-radius: 45%;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    cursor: pointer;
+}
+button#btnSend::after{
+    content: '';
+    background-image: url('../images/icon-arrow.svg');
+    height: inherit;
+    width: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.attribution {
+     font-size: 11px; text-align: center; position: relative; 
+     bottom: 0;
+     width: 100%;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
