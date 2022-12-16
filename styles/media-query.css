@@ -1,9 +1,10 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
     main{
         display: grid;
         grid-template-rows: 130px auto;
         grid-template-columns: auto max-content;
         height: 100%;
+        width: 100%;
         grid-template-areas: 'a1 a'
                             'a2 a';
         align-items: center;

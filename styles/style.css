@@ -145,5 +145,6 @@ button#btnSend::after{
     position: fixed; 
     bottom: 0; 
     width: 100%;
+    display: none;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
