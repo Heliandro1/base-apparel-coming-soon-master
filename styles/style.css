@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Loved+by+the+King&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Loved+by+the+King&display=swap');
 *{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
@@ -9,6 +9,7 @@
 body, html{
     height: 100vh;
     width: 100vw;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
 header{
     width: 100%;
@@ -30,18 +31,17 @@ header > div > img{
 }
 main{
     width: 100%;
-    height: 100%;
-    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     position: absolute;
 }
 section#main-form{
-    height: 60%;
+    height: 100%;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 section#main-form > form{
-    height: 85%;
+    height: 100%;
     width: 100%;
     display: flex;    
     gap: 20px;
@@ -139,9 +139,5 @@ button#btnSend::after{
     background-repeat: no-repeat;
     display: flex;
 }
-.attribution {
-     font-size: 11px; text-align: center; position: relative; 
-     bottom: 0;
-     width: 100%;
-}
+.attribution {font-size: 11px; text-align: center; display: none;}
 .attribution a { color: hsl(228, 45%, 44%); }
