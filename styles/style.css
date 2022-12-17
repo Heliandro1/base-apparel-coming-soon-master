@@ -132,9 +132,6 @@ button#btnSend{
     border: none;
     cursor: pointer;
 }
-button#btnSend span{
-    display: none;
-}
 button#btnSend::after{
     content: '';
     background-image: url('../images/icon-arrow.svg');
