@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://github.com/Heliandro1/base-apparel-coming-soon-master)
-- Live Site URL: [here](https://base-apparel-coming-soon-master-five.vercel.app)
+- Live Site URL: [here](https://base-apparel-coming-soon-master-five-chi.vercel.app)
 
 ### Built with
 
