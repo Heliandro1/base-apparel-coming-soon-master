@@ -60,7 +60,7 @@ section#main-form > form > section{
     align-items: center;
     gap: 10px;
 }
-section#main-form > form > section > h1.title{
+section#main-form > form > section > h1{
     width: 50%;
     font-variant: small-caps;
     font-size: 2.5em;
